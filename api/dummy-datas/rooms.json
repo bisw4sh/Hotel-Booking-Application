@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Standard Room",
+      "price": 100,
+      "maxPeople": 2,
+      "desc": "A comfortable room with essential amenities.",
+      "roomNumbers": [
+        { "number": 101, "unavailableDates": [] },
+        { "number": 102, "unavailableDates": ["2023-10-01", "2023-10-15"] }
+      ]
+    },
+    {
+      "title": "Deluxe Suite",
+      "price": 200,
+      "maxPeople": 3,
+      "desc": "A luxurious suite with a stunning view.",
+      "roomNumbers": [
+        { "number": 201, "unavailableDates": ["2023-11-05"] },
+        { "number": 202, "unavailableDates": [] }
+      ]
+    },
+    {
+      "title": "Family Room",
+      "price": 150,
+      "maxPeople": 4,
+      "desc": "Spacious room suitable for families.",
+      "roomNumbers": [
+        { "number": 301, "unavailableDates": ["2023-12-20", "2024-01-02"] },
+        { "number": 302, "unavailableDates": ["2023-12-25"] }
+      ]
+    }
+  ]
+  
