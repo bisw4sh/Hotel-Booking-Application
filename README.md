@@ -1,4 +1,4 @@
-# Project Name
+# Hotel Booking Application
 
 This is a sample project with three directories: `admin`, `client`, and `api`. Each directory contains its own codebase.
 
@@ -10,7 +10,7 @@ This is a sample project with three directories: `admin`, `client`, and `api`. E
 
 ## Installation and Usage
 
-To get started, follow these steps:
+To get started, follow these steps in 3 different terminals:
 
 ### 1. Admin Directory
 
