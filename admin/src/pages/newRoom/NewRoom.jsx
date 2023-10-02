@@ -12,7 +12,7 @@ const NewRoom = () => {
   const [hotelId, setHotelId] = useState(undefined);
   const [rooms, setRooms] = useState([]);
 
-  const { data, loading, error } = useFetch("/hotels");
+  const { data, loading, error } = useFetch("http://127.0.0.1:8800/api/hotels");
 
   const handleChange = (e) => {
     setInfo((prev) => ({ ...prev, [e.target.id]: e.target.value }));
@@ -22,7 +22,7 @@ const NewRoom = () => {
     e.preventDefault();
     const roomNumbers = rooms.split(",").map((room) => ({ number: room }));
     try {
-      await axios.post(`/api/rooms/${hotelId}`, {
+      await axios.post(`http://127.0.0.1:8800/api/rooms/${hotelId}`, {
         ...info,
         roomNumbers,
       });

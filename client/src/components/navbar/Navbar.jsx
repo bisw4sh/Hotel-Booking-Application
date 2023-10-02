@@ -11,10 +11,26 @@ const Navbar = () => {
         <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
           <span className="logo">HBA</span>
         </Link>
-        {user ? user.username : (
+        {user ? (
+          user.username
+        ) : (
           <div className="navItems">
-            <button className="navButton">Register</button>
-            <button className="navButton">Login</button>
+            <button className="navButton">
+              <Link
+                to="/register"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                Register
+              </Link>
+            </button>
+            <button className="navButton">
+              <Link
+                to="/login"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                Login
+              </Link>
+            </button>
           </div>
         )}
       </div>
