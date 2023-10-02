@@ -1,7 +1,7 @@
 [
   {
     "name": "Hotel A",
-    "type": "Luxury",
+    "type": "hotel",
     "city": "berlin",
     "address": "123 Luxury Street",
     "distance": "2 miles to city center",
@@ -15,7 +15,7 @@
   },
   {
     "name": "Hotel B",
-    "type": "Budget",
+    "type": "apartment",
     "city": "madrid",
     "address": "456 Budget Avenue",
     "distance": "1 mile to city center",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Hotel C",
-    "type": "Luxury",
+    "type": "resort",
     "city": "london",
     "address": "789 Luxury Lane",
     "distance": "3 miles to city center",
@@ -43,7 +43,7 @@
   },
   {
     "name": "Hotel D",
-    "type": "Budget",
+    "type": "villa",
     "city": "berlin",
     "address": "101 Budget Road",
     "distance": "2 miles to city center",
@@ -57,7 +57,7 @@
   },
   {
     "name": "Hotel E",
-    "type": "Luxury",
+    "type": "cabin",
     "city": "madrid",
     "address": "222 Luxury Boulevard",
     "distance": "2.5 miles to city center",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Hotel F",
-    "type": "Budget",
+    "type": "hotel",
     "city": "london",
     "address": "303 Budget Way",
     "distance": "1.5 miles to city center",
@@ -85,7 +85,7 @@
   },
   {
     "name": "Hotel G",
-    "type": "Luxury",
+    "type": "apartment",
     "city": "berlin",
     "address": "444 Luxury Drive",
     "distance": "1.8 miles to city center",
@@ -99,7 +99,7 @@
   },
   {
     "name": "Hotel H",
-    "type": "Budget",
+    "type": "resort",
     "city": "madrid",
     "address": "555 Budget Place",
     "distance": "1.2 miles to city center",
@@ -113,7 +113,7 @@
   },
   {
     "name": "Hotel I",
-    "type": "Luxury",
+    "type": "villa",
     "city": "london",
     "address": "666 Luxury Court",
     "distance": "2.2 miles to city center",
@@ -127,7 +127,7 @@
   },
   {
     "name": "Hotel J",
-    "type": "Budget",
+    "type": "cabin",
     "city": "berlin",
     "address": "777 Budget Lane",
     "distance": "1.5 miles to city center",
