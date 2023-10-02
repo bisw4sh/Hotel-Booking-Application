@@ -22,7 +22,7 @@ const NewRoom = () => {
     e.preventDefault();
     const roomNumbers = rooms.split(",").map((room) => ({ number: room }));
     try {
-      await axios.post(`http://localhost:8800/api/rooms/${hotelId}`, {
+      await axios.post(`/api/rooms/${hotelId}`, {
         ...info,
         roomNumbers,
       });

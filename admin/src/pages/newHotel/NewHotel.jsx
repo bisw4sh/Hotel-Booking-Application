@@ -52,7 +52,7 @@ const NewHotel = () => {
         photos: list,
       };
 
-      await axios.post("http://localhost:8800/api/hotels", newhotel);
+      await axios.post("/api/hotels", newhotel);
     } catch (err) {
       console.log(err);
     }

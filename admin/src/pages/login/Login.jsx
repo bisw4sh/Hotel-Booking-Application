@@ -25,7 +25,7 @@ const Login = () => {
     try {
       console.log(credentials);
       const res = await axios.post(
-        "http://localhost:8800/api/auth/login",
+        "/auth/login",
         credentials
       );
       if (res.data.isAdmin) {
