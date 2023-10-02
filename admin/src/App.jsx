@@ -25,7 +25,7 @@ function App() {
 
     return children;
   };
-
+  console.log("usercolums", userColumns);
   return (
     <div className={darkMode ? "app dark" : "app"}>
       <BrowserRouter>
@@ -87,7 +87,7 @@ function App() {
                 path="new"
                 element={
                   <ProtectedRoute>
-                    <NewHotel  />
+                    <NewHotel />
                   </ProtectedRoute>
                 }
               />
@@ -113,7 +113,7 @@ function App() {
                 path="new"
                 element={
                   <ProtectedRoute>
-                    <NewRoom  />
+                    <NewRoom />
                   </ProtectedRoute>
                 }
               />
