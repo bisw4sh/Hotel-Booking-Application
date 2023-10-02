@@ -1,33 +1,102 @@
 [
-    {
-      "title": "Standard Room",
-      "price": 100,
-      "maxPeople": 2,
-      "desc": "A comfortable room with essential amenities.",
-      "roomNumbers": [
-        { "number": 101, "unavailableDates": [] },
-        { "number": 102, "unavailableDates": ["2023-10-01", "2023-10-15"] }
-      ]
-    },
-    {
-      "title": "Deluxe Suite",
-      "price": 200,
-      "maxPeople": 3,
-      "desc": "A luxurious suite with a stunning view.",
-      "roomNumbers": [
-        { "number": 201, "unavailableDates": ["2023-11-05"] },
-        { "number": 202, "unavailableDates": [] }
-      ]
-    },
-    {
-      "title": "Family Room",
-      "price": 150,
-      "maxPeople": 4,
-      "desc": "Spacious room suitable for families.",
-      "roomNumbers": [
-        { "number": 301, "unavailableDates": ["2023-12-20", "2024-01-02"] },
-        { "number": 302, "unavailableDates": ["2023-12-25"] }
-      ]
-    }
-  ]
-  
+  {
+    "title": "Standard Room",
+    "price": 100,
+    "maxPeople": 2,
+    "desc": "A comfortable standard room for two guests.",
+    "roomNumbers": [
+      { "number": 101, "unavailableDates": [] },
+      { "number": 102, "unavailableDates": [] }
+    ]
+  },
+  {
+    "title": "Deluxe Suite",
+    "price": 250,
+    "maxPeople": 4,
+    "desc": "A luxurious suite for a family or group of friends.",
+    "roomNumbers": [
+      { "number": 201, "unavailableDates": [] },
+      { "number": 202, "unavailableDates": [] }
+    ]
+  },
+  {
+    "title": "Economy Room",
+    "price": 80,
+    "maxPeople": 2,
+    "desc": "An affordable room for budget-conscious travelers.",
+    "roomNumbers": [
+      { "number": 301, "unavailableDates": [] },
+      { "number": 302, "unavailableDates": [] }
+    ]
+  },
+  {
+    "title": "Executive Suite",
+    "price": 300,
+    "maxPeople": 3,
+    "desc": "A spacious suite with executive amenities.",
+    "roomNumbers": [
+      { "number": 401, "unavailableDates": [] },
+      { "number": 402, "unavailableDates": [] }
+    ]
+  },
+  {
+    "title": "Family Room",
+    "price": 180,
+    "maxPeople": 4,
+    "desc": "A comfortable room for a family vacation.",
+    "roomNumbers": [
+      { "number": 501, "unavailableDates": [] },
+      { "number": 502, "unavailableDates": [] }
+    ]
+  },
+  {
+    "title": "Luxury Suite",
+    "price": 400,
+    "maxPeople": 2,
+    "desc": "An opulent suite for a romantic getaway.",
+    "roomNumbers": [
+      { "number": 601, "unavailableDates": [] },
+      { "number": 602, "unavailableDates": [] }
+    ]
+  },
+  {
+    "title": "Single Room",
+    "price": 70,
+    "maxPeople": 1,
+    "desc": "A cozy room for solo travelers.",
+    "roomNumbers": [
+      { "number": 701, "unavailableDates": [] },
+      { "number": 702, "unavailableDates": [] }
+    ]
+  },
+  {
+    "title": "VIP Suite",
+    "price": 500,
+    "maxPeople": 2,
+    "desc": "A luxurious VIP suite with personalized service.",
+    "roomNumbers": [
+      { "number": 801, "unavailableDates": [] },
+      { "number": 802, "unavailableDates": [] }
+    ]
+  },
+  {
+    "title": "Honeymoon Suite",
+    "price": 350,
+    "maxPeople": 2,
+    "desc": "A romantic suite for newlyweds.",
+    "roomNumbers": [
+      { "number": 901, "unavailableDates": [] },
+      { "number": 902, "unavailableDates": [] }
+    ]
+  },
+  {
+    "title": "Accessible Room",
+    "price": 120,
+    "maxPeople": 2,
+    "desc": "A specially designed room for guests with disabilities.",
+    "roomNumbers": [
+      { "number": 1001, "unavailableDates": [] },
+      { "number": 1002, "unavailableDates": [] }
+    ]
+  }
+]

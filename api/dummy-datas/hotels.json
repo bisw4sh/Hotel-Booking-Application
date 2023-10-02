@@ -1,33 +1,142 @@
 [
-    {
-      "title": "Luxury Suite",
-      "price": 200,
-      "maxPeople": 2,
-      "desc": "A spacious and luxurious suite with a beautiful view.",
-      "roomNumbers": [
-        { "number": 101, "unavailableDates": [] },
-        { "number": 102, "unavailableDates": ["2023-10-01", "2023-10-15"] }
-      ]
-    },
-    {
-      "title": "Standard Room",
-      "price": 100,
-      "maxPeople": 1,
-      "desc": "A comfortable room with all the necessary amenities.",
-      "roomNumbers": [
-        { "number": 201, "unavailableDates": ["2023-11-05"] },
-        { "number": 202, "unavailableDates": [] }
-      ]
-    },
-    {
-      "title": "Family Suite",
-      "price": 250,
-      "maxPeople": 4,
-      "desc": "A spacious suite designed for families with children.",
-      "roomNumbers": [
-        { "number": 301, "unavailableDates": ["2023-12-20", "2024-01-02"] },
-        { "number": 302, "unavailableDates": ["2023-12-25"] }
-      ]
-    }
-  ]
-  
+  {
+    "name": "Hotel A",
+    "type": "Luxury",
+    "city": "Berlin",
+    "address": "123 Luxury Street",
+    "distance": "2 miles to city center",
+    "photos": ["hotel_a_1.jpg", "hotel_a_2.jpg"],
+    "title": "Luxury Hotel in Berlin",
+    "desc": "Experience the ultimate luxury at our hotel in Berlin.",
+    "rating": 4.8,
+    "rooms": ["Suite", "Deluxe Room"],
+    "cheapestPrice": 300,
+    "featured": true
+  },
+  {
+    "name": "Hotel B",
+    "type": "Budget",
+    "city": "Madrid",
+    "address": "456 Budget Avenue",
+    "distance": "1 mile to city center",
+    "photos": ["hotel_b_1.jpg"],
+    "title": "Affordable Hotel in Madrid",
+    "desc": "Enjoy a comfortable stay without breaking the bank.",
+    "rating": 3.5,
+    "rooms": ["Standard Room", "Economy Room"],
+    "cheapestPrice": 80,
+    "featured": false
+  },
+  {
+    "name": "Hotel C",
+    "type": "Luxury",
+    "city": "London",
+    "address": "789 Luxury Lane",
+    "distance": "3 miles to city center",
+    "photos": ["hotel_c_1.jpg", "hotel_c_2.jpg"],
+    "title": "Luxurious Stay in London",
+    "desc": "Indulge in opulence during your visit to London.",
+    "rating": 4.9,
+    "rooms": ["Suite", "Executive Suite"],
+    "cheapestPrice": 400,
+    "featured": true
+  },
+  {
+    "name": "Hotel D",
+    "type": "Budget",
+    "city": "Berlin",
+    "address": "101 Budget Road",
+    "distance": "2 miles to city center",
+    "photos": ["hotel_d_1.jpg"],
+    "title": "Economical Hotel in Berlin",
+    "desc": "Value for money accommodation in Berlin.",
+    "rating": 3.2,
+    "rooms": ["Standard Room", "Economy Room"],
+    "cheapestPrice": 75,
+    "featured": false
+  },
+  {
+    "name": "Hotel E",
+    "type": "Luxury",
+    "city": "Madrid",
+    "address": "222 Luxury Boulevard",
+    "distance": "2.5 miles to city center",
+    "photos": ["hotel_e_1.jpg", "hotel_e_2.jpg"],
+    "title": "Exquisite Madrid Getaway",
+    "desc": "Experience Madrid's elegance and luxury.",
+    "rating": 4.7,
+    "rooms": ["Suite", "Deluxe Room"],
+    "cheapestPrice": 320,
+    "featured": false
+  },
+  {
+    "name": "Hotel F",
+    "type": "Budget",
+    "city": "London",
+    "address": "303 Budget Way",
+    "distance": "1.5 miles to city center",
+    "photos": ["hotel_f_1.jpg"],
+    "title": "Budget-Friendly Lodging in London",
+    "desc": "Stay comfortably within your budget in London.",
+    "rating": 3.4,
+    "rooms": ["Standard Room", "Economy Room"],
+    "cheapestPrice": 90,
+    "featured": true
+  },
+  {
+    "name": "Hotel G",
+    "type": "Luxury",
+    "city": "Berlin",
+    "address": "444 Luxury Drive",
+    "distance": "1.8 miles to city center",
+    "photos": ["hotel_g_1.jpg", "hotel_g_2.jpg"],
+    "title": "Berlin's Finest Luxury Hotel",
+    "desc": "Discover luxury at its best in the heart of Berlin.",
+    "rating": 4.9,
+    "rooms": ["Suite", "Deluxe Room"],
+    "cheapestPrice": 350,
+    "featured": false
+  },
+  {
+    "name": "Hotel H",
+    "type": "Budget",
+    "city": "Madrid",
+    "address": "555 Budget Place",
+    "distance": "1.2 miles to city center",
+    "photos": ["hotel_h_1.jpg"],
+    "title": "Affordable Accommodation in Madrid",
+    "desc": "Enjoy a comfortable stay at budget-friendly rates in Madrid.",
+    "rating": 3.6,
+    "rooms": ["Standard Room", "Economy Room"],
+    "cheapestPrice": 85,
+    "featured": true
+  },
+  {
+    "name": "Hotel I",
+    "type": "Luxury",
+    "city": "London",
+    "address": "666 Luxury Court",
+    "distance": "2.2 miles to city center",
+    "photos": ["hotel_i_1.jpg", "hotel_i_2.jpg"],
+    "title": "London's Premier Luxury Hotel",
+    "desc": "Experience unmatched luxury during your stay in London.",
+    "rating": 4.9,
+    "rooms": ["Suite", "Deluxe Room"],
+    "cheapestPrice": 380,
+    "featured": false
+  },
+  {
+    "name": "Hotel J",
+    "type": "Budget",
+    "city": "Berlin",
+    "address": "777 Budget Lane",
+    "distance": "1.5 miles to city center",
+    "photos": ["hotel_j_1.jpg"],
+    "title": "Budget-Friendly Berlin Stay",
+    "desc": "Enjoy Berlin's attractions without breaking the bank.",
+    "rating": 3.3,
+    "rooms": ["Standard Room", "Economy Room"],
+    "cheapestPrice": 70,
+    "featured": false
+  }
+] 
