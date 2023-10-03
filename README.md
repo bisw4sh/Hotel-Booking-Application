@@ -9,6 +9,9 @@ This is a sample project with three directories: `admin`, `client`, and `api`. E
 - **api**: Contains code for the API server.
 
 ## Installation and Usage
+- Replace the existing ```MONGO``` url from .env file in ```./api/.env```
+
+- Then, import the dummy data to mongoDB from ```./api/dummy-datas``` and use the credentials as necessary.
 
 To get started, follow these steps in 3 different terminals:
 

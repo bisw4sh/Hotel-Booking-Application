@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "6515b2c80fd44099edca79dd"
+  },
+  "username": "john_doe",
+  "email": "johndoe@example.com",
+  "country": "USA",
+  "img": "profile.jpg",
+  "city": "New York",
+  "phone": "1234567890",
+  "password": "$2a$10$PXiqNCZ7enydtedB3aqQ7ebUdjEpP6gPudOzigMUOfcCgqelqu6iy",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-09-28T17:07:20.804Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-28T17:07:20.804Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519b03c9c5c993956c73edc"
+  },
+  "username": "sandesh",
+  "email": "sandesh@gmail.com",
+  "country": "nepal",
+  "img": "https://1.bp.blogspot.com/-iCnFX7eWVjs/XR9NQutHXcI/AAAAAAAAJ9k/ISWH3UXgJF8QJdsV6P9wh3agzOwOF_aYgCLcBGAs/s1600/cat-1285634_1920.png",
+  "city": "pokhara",
+  "phone": "123456789",
+  "password": "$2a$10$15Yn5R8q7YxgsyoOg.JVJ.HDBNPkyMyi0f32zi4//AVmnFF3WlRKO",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-10-01T17:45:32.879Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-01T17:45:32.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519b04e9c5c993956c73ede"
+  },
+  "username": "nabin",
+  "email": "nabin@gmail.com",
+  "country": "nepal",
+  "img": "https://1.bp.blogspot.com/-iCnFX7eWVjs/XR9NQutHXcI/AAAAAAAAJ9k/ISWH3UXgJF8QJdsV6P9wh3agzOwOF_aYgCLcBGAs/s1600/cat-1285634_1920.png",
+  "city": "pokhara",
+  "phone": "123456789",
+  "password": "$2a$10$zEMMWJcKH62XElN9cnlrcOq0nBqRkeoP5hxlB3EcGC6LmCNFLvVXu",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-10-01T17:45:50.281Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-01T17:45:50.281Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519b05e9c5c993956c73ee0"
+  },
+  "username": "bibek",
+  "email": "bibek@gmail.com",
+  "country": "nepal",
+  "img": "https://1.bp.blogspot.com/-iCnFX7eWVjs/XR9NQutHXcI/AAAAAAAAJ9k/ISWH3UXgJF8QJdsV6P9wh3agzOwOF_aYgCLcBGAs/s1600/cat-1285634_1920.png",
+  "city": "pokhara",
+  "phone": "123456789",
+  "password": "$2a$10$zyQCzs3KPbY7oBMIg4Bvqe8c8Cm4U7oT9P7TRAf.XBAT8OMeUr4kK",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-10-01T17:46:06.968Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-01T17:46:06.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519b06b9c5c993956c73ee2"
+  },
+  "username": "biswash",
+  "email": "biswash@gmail.com",
+  "country": "nepal",
+  "img": "https://1.bp.blogspot.com/-iCnFX7eWVjs/XR9NQutHXcI/AAAAAAAAJ9k/ISWH3UXgJF8QJdsV6P9wh3agzOwOF_aYgCLcBGAs/s1600/cat-1285634_1920.png",
+  "city": "pokhara",
+  "phone": "123456789",
+  "password": "$2a$10$La9bOMfjpeSI/cn1Rt.IEe0J7qOGDfktJ1WepEVzQhgMW/BtqCMnS",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-10-01T17:46:19.334Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-01T17:46:19.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519b07b9c5c993956c73ee4"
+  },
+  "username": "arjun",
+  "email": "arjun@gmail.com",
+  "country": "nepal",
+  "img": "https://1.bp.blogspot.com/-iCnFX7eWVjs/XR9NQutHXcI/AAAAAAAAJ9k/ISWH3UXgJF8QJdsV6P9wh3agzOwOF_aYgCLcBGAs/s1600/cat-1285634_1920.png",
+  "city": "pokhara",
+  "phone": "123456789",
+  "password": "$2a$10$O4bPm9Dpyd7u5/tRQlum.ObfzblcNxKNAO9/BNDwp99MwcvAzVnei",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-10-01T17:46:35.393Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-01T17:46:35.393Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519b0909c5c993956c73ee6"
+  },
+  "username": "yaman",
+  "email": "yaman@gmail.com",
+  "country": "nepal",
+  "img": "https://1.bp.blogspot.com/-iCnFX7eWVjs/XR9NQutHXcI/AAAAAAAAJ9k/ISWH3UXgJF8QJdsV6P9wh3agzOwOF_aYgCLcBGAs/s1600/cat-1285634_1920.png",
+  "city": "pokhara",
+  "phone": "123456789",
+  "password": "$2a$10$5ghjVnL3oPh1IieDoZOMuua3qaYI8z1gOcgKNRQSe4Gf3xi9ThrM6",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-10-01T17:46:56.342Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-01T17:46:56.342Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519b09f9c5c993956c73ee8"
+  },
+  "username": "kishan",
+  "email": "kishan@gmail.com",
+  "country": "nepal",
+  "img": "https://1.bp.blogspot.com/-iCnFX7eWVjs/XR9NQutHXcI/AAAAAAAAJ9k/ISWH3UXgJF8QJdsV6P9wh3agzOwOF_aYgCLcBGAs/s1600/cat-1285634_1920.png",
+  "city": "pokhara",
+  "phone": "123456789",
+  "password": "$2a$10$UHYbeqpyJ/ykgpe1PnKla.OYxqMGOgz5OzA.Kd8pn0YFpYCpl.axS",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-10-01T17:47:11.634Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-01T17:47:11.634Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651b0a7056c02e3d7ff5fc95"
+  },
+  "username": "errbdr",
+  "email": "errorbdr@gmail.com",
+  "country": "Nepal",
+  "img": "http://res.cloudinary.com/dmfsgi7gr/image/upload/v1696270960/upload/bomprfz2vjmuzld7gtbq.jpg",
+  "city": "KTM",
+  "phone": "9860767500",
+  "password": "$2a$10$BGnrFKYBZKsYz32ALLARP.sCKrHsIeCvP.YZSGqBQrM32CEgFQZE.",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-10-02T18:22:40.916Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-02T18:22:40.916Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651b9ffb8949a56af7b03ccf"
+  },
+  "username": "kandel",
+  "email": "kandel",
+  "country": "nepal",
+  "img": "http://res.cloudinary.com/dmfsgi7gr/image/upload/v1696309244/upload/ueqch8qguo08276nbrm6.jpg",
+  "city": "pokhara",
+  "phone": "1234567890",
+  "password": "$2a$10$PQH91JBRtxFzwQ9qDCEVgOvac6P7LBfngSgK3GRjqLimFFiAUT6zm",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-10-03T05:00:43.888Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-03T05:00:43.888Z"
+  },
+  "__v": 0
+}]

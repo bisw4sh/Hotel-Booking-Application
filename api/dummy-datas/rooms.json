@@ -1,102 +1,352 @@
-[
-  {
-    "title": "Standard Room",
-    "price": 100,
-    "maxPeople": 2,
-    "desc": "A comfortable standard room for two guests.",
-    "roomNumbers": [
-      { "number": 101, "unavailableDates": [] },
-      { "number": 102, "unavailableDates": [] }
-    ]
+[{
+  "_id": {
+    "$oid": "651a59461d8bef12fc2658ee"
   },
-  {
-    "title": "Deluxe Suite",
-    "price": 250,
-    "maxPeople": 4,
-    "desc": "A luxurious suite for a family or group of friends.",
-    "roomNumbers": [
-      { "number": 201, "unavailableDates": [] },
-      { "number": 202, "unavailableDates": [] }
-    ]
+  "title": "Standard Room",
+  "price": 100,
+  "maxPeople": 2,
+  "desc": "A comfortable standard room for two guests.",
+  "roomNumbers": [
+    {
+      "number": 101,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a59461d8bef12fc2658ef"
+      }
+    },
+    {
+      "number": 102,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a59461d8bef12fc2658f0"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T05:46:46.158Z"
   },
-  {
-    "title": "Economy Room",
-    "price": 80,
-    "maxPeople": 2,
-    "desc": "An affordable room for budget-conscious travelers.",
-    "roomNumbers": [
-      { "number": 301, "unavailableDates": [] },
-      { "number": 302, "unavailableDates": [] }
-    ]
+  "updatedAt": {
+    "$date": "2023-10-02T05:46:46.158Z"
   },
-  {
-    "title": "Executive Suite",
-    "price": 300,
-    "maxPeople": 3,
-    "desc": "A spacious suite with executive amenities.",
-    "roomNumbers": [
-      { "number": 401, "unavailableDates": [] },
-      { "number": 402, "unavailableDates": [] }
-    ]
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651a835d1d8bef12fc2658f6"
   },
-  {
-    "title": "Family Room",
-    "price": 180,
-    "maxPeople": 4,
-    "desc": "A comfortable room for a family vacation.",
-    "roomNumbers": [
-      { "number": 501, "unavailableDates": [] },
-      { "number": 502, "unavailableDates": [] }
-    ]
+  "title": "Deluxe Suite",
+  "price": 250,
+  "maxPeople": 4,
+  "desc": "A luxurious suite for a family or group of friends.",
+  "roomNumbers": [
+    {
+      "number": 201,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a835d1d8bef12fc2658f7"
+      }
+    },
+    {
+      "number": 202,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a835d1d8bef12fc2658f8"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T08:46:21.357Z"
   },
-  {
-    "title": "Luxury Suite",
-    "price": 400,
-    "maxPeople": 2,
-    "desc": "An opulent suite for a romantic getaway.",
-    "roomNumbers": [
-      { "number": 601, "unavailableDates": [] },
-      { "number": 602, "unavailableDates": [] }
-    ]
+  "updatedAt": {
+    "$date": "2023-10-02T08:46:21.357Z"
   },
-  {
-    "title": "Single Room",
-    "price": 70,
-    "maxPeople": 1,
-    "desc": "A cozy room for solo travelers.",
-    "roomNumbers": [
-      { "number": 701, "unavailableDates": [] },
-      { "number": 702, "unavailableDates": [] }
-    ]
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651a838f1d8bef12fc265900"
   },
-  {
-    "title": "VIP Suite",
-    "price": 500,
-    "maxPeople": 2,
-    "desc": "A luxurious VIP suite with personalized service.",
-    "roomNumbers": [
-      { "number": 801, "unavailableDates": [] },
-      { "number": 802, "unavailableDates": [] }
-    ]
+  "title": "Economy Room",
+  "price": 80,
+  "maxPeople": 2,
+  "desc": "An affordable room for budget-conscious travelers.",
+  "roomNumbers": [
+    {
+      "number": 301,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a838f1d8bef12fc265901"
+      }
+    },
+    {
+      "number": 302,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a838f1d8bef12fc265902"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T08:47:11.531Z"
   },
-  {
-    "title": "Honeymoon Suite",
-    "price": 350,
-    "maxPeople": 2,
-    "desc": "A romantic suite for newlyweds.",
-    "roomNumbers": [
-      { "number": 901, "unavailableDates": [] },
-      { "number": 902, "unavailableDates": [] }
-    ]
+  "updatedAt": {
+    "$date": "2023-10-02T08:47:11.531Z"
   },
-  {
-    "title": "Accessible Room",
-    "price": 120,
-    "maxPeople": 2,
-    "desc": "A specially designed room for guests with disabilities.",
-    "roomNumbers": [
-      { "number": 1001, "unavailableDates": [] },
-      { "number": 1002, "unavailableDates": [] }
-    ]
-  }
-]
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651a83bb1d8bef12fc265905"
+  },
+  "title": "Executive Suite",
+  "price": 300,
+  "maxPeople": 3,
+  "desc": "A spacious suite with executive amenities.",
+  "roomNumbers": [
+    {
+      "number": 401,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a83bb1d8bef12fc265906"
+      }
+    },
+    {
+      "number": 402,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a83bb1d8bef12fc265907"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T08:47:55.247Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-02T08:47:55.247Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651a841b1d8bef12fc26590a"
+  },
+  "title": "Executive Suite",
+  "price": 300,
+  "maxPeople": 3,
+  "desc": "A spacious suite with executive amenities.",
+  "roomNumbers": [
+    {
+      "number": 401,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a841b1d8bef12fc26590b"
+      }
+    },
+    {
+      "number": 402,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a841b1d8bef12fc26590c"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T08:49:31.157Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-02T08:49:31.157Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651a843d1d8bef12fc26590f"
+  },
+  "title": "Family Room",
+  "price": 180,
+  "maxPeople": 4,
+  "desc": "A comfortable room for a family vacation.",
+  "roomNumbers": [
+    {
+      "number": 501,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a843d1d8bef12fc265910"
+      }
+    },
+    {
+      "number": 502,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a843d1d8bef12fc265911"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T08:50:05.909Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-02T08:50:05.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651a84601d8bef12fc265914"
+  },
+  "title": "Luxury Suite",
+  "price": 400,
+  "maxPeople": 2,
+  "desc": "An opulent suite for a romantic getaway.",
+  "roomNumbers": [
+    {
+      "number": 601,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a84601d8bef12fc265915"
+      }
+    },
+    {
+      "number": 602,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a84601d8bef12fc265916"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T08:50:40.140Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-02T08:50:40.140Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651a847f1d8bef12fc265919"
+  },
+  "title": "Single Room",
+  "price": 70,
+  "maxPeople": 1,
+  "desc": "A cozy room for solo travelers.",
+  "roomNumbers": [
+    {
+      "number": 701,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a847f1d8bef12fc26591a"
+      }
+    },
+    {
+      "number": 702,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a847f1d8bef12fc26591b"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T08:51:11.976Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-02T08:51:11.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651a84a01d8bef12fc26591e"
+  },
+  "title": "VIP Suite",
+  "price": 500,
+  "maxPeople": 2,
+  "desc": "A luxurious VIP suite with personalized service.",
+  "roomNumbers": [
+    {
+      "number": 801,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a84a01d8bef12fc26591f"
+      }
+    },
+    {
+      "number": 802,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a84a01d8bef12fc265920"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T08:51:44.654Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-02T08:51:44.654Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651a84bb1d8bef12fc265923"
+  },
+  "title": "Honeymoon Suite",
+  "price": 350,
+  "maxPeople": 2,
+  "desc": "A romantic suite for newlyweds.",
+  "roomNumbers": [
+    {
+      "number": 901,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a84bb1d8bef12fc265924"
+      }
+    },
+    {
+      "number": 902,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a84bb1d8bef12fc265925"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T08:52:11.149Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-02T08:52:11.149Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651a84da1d8bef12fc265928"
+  },
+  "title": "Accessible Room",
+  "price": 120,
+  "maxPeople": 2,
+  "desc": "A specially designed room for guests with disabilities.",
+  "roomNumbers": [
+    {
+      "number": 1001,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a84da1d8bef12fc265929"
+      }
+    },
+    {
+      "number": 1002,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "651a84da1d8bef12fc26592a"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-02T08:52:42.131Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-02T08:52:42.131Z"
+  },
+  "__v": 0
+}]
