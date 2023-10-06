@@ -11,8 +11,8 @@ const List = () => {
   const rows = [
     {
       id: 1143155,
-      product: "Acer Nitro 5",
-      img: "https://m.media-amazon.com/images/I/81bc8mA3nKL._AC_UY327_FMwebp_QL65_.jpg",
+      product: "Pokhara Tourist Home",
+      img: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/293934032.jpg?k=bcdfd57aecc9c165c6aebe1c0d2931bdc83ad9fda498351a4b40a46d2a5ddc6a&o=&hp=1",
       customer: "John Smith",
       date: "1 March",
       amount: 785,
@@ -21,8 +21,8 @@ const List = () => {
     },
     {
       id: 2235235,
-      product: "Playstation 5",
-      img: "https://m.media-amazon.com/images/I/31JaiPXYI8L._AC_UY327_FMwebp_QL65_.jpg",
+      product: "Hotel Tourist Residency",
+      img: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/494097152.jpg?k=42a315e818c0e7720079f8b7e2ff793a5d71a46ee4e23cb53113f1b6b1c4b0a3&o=&hp=1",
       customer: "Michael Doe",
       date: "1 March",
       amount: 900,
@@ -31,8 +31,8 @@ const List = () => {
     },
     {
       id: 2342353,
-      product: "Redragon S101",
-      img: "https://m.media-amazon.com/images/I/71kr3WAj1FL._AC_UY327_FMwebp_QL65_.jpg",
+      product: "Majestic Lake Front Hotel & Suites",
+      img: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/479465548.jpg?k=4ea35d663cb7103c67532a5f3830312b6a7fc28365440c2ee90a11350f27d6e1&o=&hp=1",
       customer: "John Smith",
       date: "1 March",
       amount: 35,
@@ -41,7 +41,7 @@ const List = () => {
     },
     {
       id: 2357741,
-      product: "Razer Blade 15",
+      product: "Sarangkot Mountain Lodge",
       img: "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
       customer: "Jane Smith",
       date: "1 March",
@@ -51,8 +51,8 @@ const List = () => {
     },
     {
       id: 2342355,
-      product: "ASUS ROG Strix",
-      img: "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      product: "Hotel Fewa Camp",
+      img: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/367370568.jpg?k=1da374d32ecd5f251c324c883d8632547363960b4607a19cb9e125e74301ab5d&o=&hp=1",
       customer: "Harold Carol",
       date: "1 March",
       amount: 2000,
