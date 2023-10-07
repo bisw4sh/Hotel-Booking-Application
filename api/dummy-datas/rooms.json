@@ -9,14 +9,28 @@
   "roomNumbers": [
     {
       "number": 101,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a59461d8bef12fc2658ef"
       }
     },
     {
       "number": 102,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a59461d8bef12fc2658f0"
       }
@@ -26,7 +40,7 @@
     "$date": "2023-10-02T05:46:46.158Z"
   },
   "updatedAt": {
-    "$date": "2023-10-02T05:46:46.158Z"
+    "$date": "2023-10-06T16:30:44.573Z"
   },
   "__v": 0
 },
@@ -41,14 +55,34 @@
   "roomNumbers": [
     {
       "number": 201,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-07T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-08T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a835d1d8bef12fc2658f7"
       }
     },
     {
       "number": 202,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-07T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-08T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a835d1d8bef12fc2658f8"
       }
@@ -58,7 +92,7 @@
     "$date": "2023-10-02T08:46:21.357Z"
   },
   "updatedAt": {
-    "$date": "2023-10-02T08:46:21.357Z"
+    "$date": "2023-10-07T03:42:09.984Z"
   },
   "__v": 0
 },
@@ -105,14 +139,31 @@
   "roomNumbers": [
     {
       "number": 401,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a83bb1d8bef12fc265906"
       }
     },
     {
       "number": 402,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-07T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a83bb1d8bef12fc265907"
       }
@@ -122,7 +173,7 @@
     "$date": "2023-10-02T08:47:55.247Z"
   },
   "updatedAt": {
-    "$date": "2023-10-02T08:47:55.247Z"
+    "$date": "2023-10-06T16:47:29.068Z"
   },
   "__v": 0
 },
@@ -137,14 +188,28 @@
   "roomNumbers": [
     {
       "number": 401,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a841b1d8bef12fc26590b"
       }
     },
     {
       "number": 402,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a841b1d8bef12fc26590c"
       }
@@ -154,7 +219,7 @@
     "$date": "2023-10-02T08:49:31.157Z"
   },
   "updatedAt": {
-    "$date": "2023-10-02T08:49:31.157Z"
+    "$date": "2023-10-06T16:53:46.529Z"
   },
   "__v": 0
 },
@@ -233,14 +298,28 @@
   "roomNumbers": [
     {
       "number": 701,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a847f1d8bef12fc26591a"
       }
     },
     {
       "number": 702,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a847f1d8bef12fc26591b"
       }
@@ -250,7 +329,7 @@
     "$date": "2023-10-02T08:51:11.976Z"
   },
   "updatedAt": {
-    "$date": "2023-10-02T08:51:11.976Z"
+    "$date": "2023-10-06T17:38:02.760Z"
   },
   "__v": 0
 },
@@ -329,14 +408,40 @@
   "roomNumbers": [
     {
       "number": 1001,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a84da1d8bef12fc265929"
       }
     },
     {
       "number": 1002,
-      "unavailableDates": [],
+      "unavailableDates": [
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-05T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        }
+      ],
       "_id": {
         "$oid": "651a84da1d8bef12fc26592a"
       }
@@ -346,7 +451,84 @@
     "$date": "2023-10-02T08:52:42.131Z"
   },
   "updatedAt": {
-    "$date": "2023-10-02T08:52:42.131Z"
+    "$date": "2023-10-06T17:40:06.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "652030aaba3832a0a10e17dd"
+  },
+  "title": "Accessible Room",
+  "price": 120,
+  "maxPeople": 2,
+  "desc": "A specially designed room for guests with disabilities.",
+  "roomNumbers": [
+    {
+      "number": 1001,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "652030abba3832a0a10e17de"
+      }
+    },
+    {
+      "number": 1002,
+      "unavailableDates": [
+        {
+          "$date": "2023-10-06T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-07T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-08T18:15:00.000Z"
+        },
+        {
+          "$date": "2023-10-09T18:15:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "652030abba3832a0a10e17df"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-06T16:07:07.017Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-07T03:41:05.481Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "652030efba3832a0a10e17e2"
+  },
+  "title": "Room Room",
+  "price": 120,
+  "maxPeople": 2,
+  "desc": "A specially designed room for guests with disabilities.",
+  "roomNumbers": [
+    {
+      "number": 1001,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "652030efba3832a0a10e17e3"
+      }
+    },
+    {
+      "number": 1002,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "652030efba3832a0a10e17e4"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-10-06T16:08:15.889Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-06T16:08:15.889Z"
   },
   "__v": 0
 }]
