@@ -13,7 +13,7 @@ This is a sample project with three directories: `admin`, `client`, and `api`. E
 
 - Then, import the dummy data to mongoDB from ```./api/dummy-datas``` and use the credentials as necessary.
 
-To get started, follow these steps in 3 different terminals:
+To get started, follow these steps in 3/4 different terminals:
 
 ### 1. Admin Directory
 
@@ -36,5 +36,12 @@ npm run dev
 ```bash
 cd api
 npm install
+npm start
+```
+
+### 4. Socket Directory(Optional for real time reservation)
+
+```bash
+cd api/socket
 npm start
 ```
