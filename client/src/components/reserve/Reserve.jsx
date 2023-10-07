@@ -3,18 +3,32 @@ import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 import "./reserve.css";
 import useFetch from "../../hooks/useFetch";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { SearchContext } from "../../context/SearchContext";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { io } from "socket.io-client";
 
 const Reserve = ({ setOpen, hotelId }) => {
+  const [socket, setSocket] = useState(null);
   const [selectedRooms, setSelectedRooms] = useState([]);
+  const [availability, setAvailability] = useState([]);
   const { data, loading, error } = useFetch(
     `http://127.0.0.1:8800/api/hotels/room/${hotelId}`
   );
   const { dates } = useContext(SearchContext);
-
+  useEffect(() => {
+    setSocket(io("http://localhost:5000"));
+  }, []);
+  useEffect(() => {
+    socket?.emit("newUser", "user added");
+  }, [socket]);
+  useEffect(() => {
+    socket?.on("selected", (data) => {
+      setAvailability(data);
+    });
+  }, [socket]);
+  console.log(availability);
   const getDatesInRange = (startDate, endDate) => {
     const start = new Date(startDate);
     const end = new Date(endDate);
@@ -41,7 +55,7 @@ const Reserve = ({ setOpen, hotelId }) => {
     return !isFound;
   };
 
-  const handleSelect = (e) => {
+  const handleSelect = (e, id) => {
     const checked = e.target.checked;
     const value = e.target.value;
     setSelectedRooms(
@@ -49,6 +63,9 @@ const Reserve = ({ setOpen, hotelId }) => {
         ? [...selectedRooms, value]
         : selectedRooms.filter((item) => item !== value)
     );
+    console.log(id);
+    if (checked) socket.emit("sendSelect", id);
+    else socket.emit("removeSelect", id);
   };
 
   const navigate = useNavigate();
@@ -96,16 +113,25 @@ const Reserve = ({ setOpen, hotelId }) => {
                   <input
                     type="checkbox"
                     value={roomNumber._id}
-                    onChange={handleSelect}
-                    disabled={!isAvailable(roomNumber)}
+                    onChange={(e) => handleSelect(e, roomNumber._id)}
+                    disabled={
+                      !isAvailable(roomNumber) ||
+                      (availability.includes(roomNumber._id) &&
+                        !selectedRooms.includes(roomNumber._id))
+                    }
                   />
                 </div>
               ))}
             </div>
           </div>
         ))}
-        <button onClick={handleClick} className="rButton">
-          Reserve Now!
+        {console.log(availability)}
+        <button
+          onClick={handleClick}
+          disabled={availability.includes(hotelId)}
+          className="rButton"
+        >
+          Reserve Nowww!
         </button>
       </div>
     </div>
