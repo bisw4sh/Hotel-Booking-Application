@@ -52,7 +52,7 @@ const NewHotel = () => {
         photos: list,
       };
 
-      await axios.post("http://127.0.0.1:8800/api/hotels", newhotel);
+      await axios.post("http://127.0.0.1:8800/api/hotels", newhotel, {withCredentials : true});
     } catch (err) {
       console.log(err);
     }
