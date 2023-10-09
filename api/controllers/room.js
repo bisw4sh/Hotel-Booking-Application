@@ -47,7 +47,7 @@ export const updateRoomAvailability = async (req, res, next) => {
     const invoice2 = await Room.findById(
       req.params.id 
     );
-    res.status(200).json(invoice2);
+    res.status(200).json({"message" : " selected date, hotel & room is booked "});
   } catch (err) {
     next(err);
   }
